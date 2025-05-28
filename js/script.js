@@ -557,3 +557,16 @@ function actualizarCountdown() {
 // Inicia y actualiza cada minuto
 actualizarCountdown();
 setInterval(actualizarCountdown, 60000);
+
+
+//event para el nav
+
+const nav = document.querySelector("nav");
+
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 60 ){
+    nav.classList.add("scrolled");
+  } else{
+    nav.classList.remove("scrolled");
+  }
+})

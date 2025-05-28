@@ -67,7 +67,7 @@
 .text {
   display: inline-block;
   font-weight: bold;
-  background: linear-gradient(90deg, #B0009E, #FD00C1, #F87502, #FD00C1, #B0009E);
+  background: linear-gradient(90deg, #AC66F2, #EA00FF, #3552F2, #EA00FF, #AC66F2);
   background-size: 200%;
   background-clip: text;
   -webkit-background-clip: text;
@@ -97,13 +97,7 @@
   position: relative;
 }
 
-.barra
-{
-	padding: 15px;
-	background: #DDA0DD;
-}
-
-/*lo que copie */
+/*Nav principal */
 
 .nav-principal {
   position: fixed;
@@ -114,10 +108,23 @@
   align-items: center;
   justify-content: space-between;
   color: white;
-  padding: 0 30px;
+  padding: 5px 30px; 
   border-radius: 11px;
-  margin-top: 10px;
+  
 }
+
+.scrolled{
+  position: fixed;
+  top: 30px; 
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background: linear-gradient(90deg, #591e94, #b200c2, #4c0a4e);
+  box-shadow: 0 16px 14px -8px rgba(209, 209, 209, 0.3);
+  border-radius: 20px;
+  padding: 40px 5px; 
+}
+
 
 /* Logo */
 .logo-container {
@@ -127,7 +134,7 @@
 }
 
 .logo-img {
-  width: 20px;
+  width: 15px;
   height: auto;
   max-width: 100%;
 }
@@ -145,7 +152,7 @@
 .menu li {
   display: flex;
   align-items: center;
-  height: 50px; /* Ajusta según el tamaño del nav */
+  height: 30px; 
   transition: border 0.3s ease;
   
 }
@@ -157,7 +164,7 @@
   font-size: 19px;
   transition: color 0.3s;
   font-family: "Bebas Neue", sans-serif;
-  padding: 20px 20px;
+  padding: 12px 12px;
 }
 
 .menu li a:hover {
@@ -516,7 +523,7 @@
   justify-content: space-between;
   color: #ffffff;
   border-radius: 5px;
-  background: linear-gradient(90deg, #B0009E, #a14b00, #8a006a, #B0009E);
+  background: linear-gradient(135deg, #1A1A2E, #3B2260, #EA00FF33, #2B1B4D);
 }
 .calendar::before,
 .calendar::after {
@@ -527,13 +534,13 @@
   width: 12px;
   height: 97%;
   border-radius: 0 5px 5px 0;
-  background-color: #66125b8c;
+  background-color: #ea00ff5e;
   transform: translateY(-50%);
 }
 .calendar::before {
   height: 94%;
   left: calc(100% + 12px);
-  background-color: #66125b34;
+  background-color:#ea00ff25;
 }
 .calendar .month {
   width: 100%;
