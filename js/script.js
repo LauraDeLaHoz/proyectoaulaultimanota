@@ -558,15 +558,16 @@ function actualizarCountdown() {
 actualizarCountdown();
 setInterval(actualizarCountdown, 60000);
 
+document.addEventListener("DOMContentLoaded", () => {
+  const nav = document.querySelector("nav");
 
-//event para el nav
-
-const nav = document.querySelector("nav");
-
-window.addEventListener("scroll", () => {
-  if (window.pageYOffset > 60 ){
-    nav.classList.add("scrolled");
-  } else{
-    nav.classList.remove("scrolled");
+  if (nav) {
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 60) {
+        nav.classList.add("scrolled");
+      } else {
+        nav.classList.remove("scrolled");
+      }
+    });
   }
-})
+});c

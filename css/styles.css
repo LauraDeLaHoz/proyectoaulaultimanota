@@ -194,9 +194,9 @@
   border: 1px solid white;
 }
 
-/* fine de lo que copie*/
+/* fin del nav*/
 
-/* otro que copie */
+/* secciones de informacion */
 
 
 .bio-tour-section {
@@ -256,9 +256,13 @@
   vertical-align: middle;
 }
 
-.lista-tour span {
+.lista-tour .span-tour {
   flex-grow: 1;
   color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  
 }
 
 .boton-tiquetes {
@@ -1581,6 +1585,11 @@
   margin-bottom: 10px;
   color: #cccccc;
   cursor: pointer;
+}
+
+.footer-block ul li a{
+  color: white;
+  text-decoration: none;
 }
 
 .footer-block ul li:hover {
