@@ -146,7 +146,7 @@
   justify-content: center;
   margin: 0;
   padding: 0;
-  list-style: none;/* Espacio exacto hacia los íconos */
+  list-style: none;
 }
 
 .menu li {
@@ -250,9 +250,9 @@
 }
 
 .icono-tour {
-  width: 40px; /* o el tamaño que estés usando */
+  width: 40px; 
   height: 40px;
-  margin-right: 25px; /* espacio entre ícono y texto */
+  margin-right: 25px; 
   vertical-align: middle;
 }
 
@@ -281,7 +281,7 @@
   margin: 0 auto;
 }
 
-/* fin de lo otro que copie */
+/* fin de la informacion */
 
 .botones
 {
@@ -1017,7 +1017,7 @@
   clear: both;
 }
 
-/* Float fix */
+
 .row::after {
   content: "";
   display: table;
@@ -1209,7 +1209,7 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   .logo {
-    margin-right: 20px; /* ajusta el valor según lo que necesites */
+    margin-right: 20px; 
   }
 
   .menu {
@@ -1219,7 +1219,7 @@
 
 /* === MENÚ RESPONSIVE PARA PANTALLAS PEQUEÑAS === */
 @media (max-width: 991px) {
-  /* Ocultar menú y iconos por defecto */
+  
   .menu {
     display: none;
     flex-direction: column;
@@ -1250,7 +1250,7 @@
     display: flex !important;
 	  justify-content: center;
 	  gap: 15px;
-	  background-color: rgba(0, 0, 0, 0.95); /* fondo negro */
+	  background-color: rgba(0, 0, 0, 0.95); 
     width: 100%;
     padding: 10px 0;
 	  float: none !important; 
@@ -1263,7 +1263,9 @@
     margin: 24px;
   }
 
-  /* Mostrar botón hamburguesa solo en pantallas pequeñas */
+
+  /*  botón hamburguesa pantallas pequeñas */
+
   .hamburger-btn {
     display: block;
   }
@@ -1597,6 +1599,41 @@
   text-decoration: underline;
 }
 
+.add-event .icon-imgevent{
+  width: 24px;
+  height: 24px;
+
+}
+
+.botonplay
+{
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #BA55D3; 
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.botonplay:hover {
+  background-color: #663399;
+} 
+
+.formatoimg
+{
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  border-radius: 200px;
+  display: flex;
+  justify-content: center;
+} 
 
 
 
